@@ -1,0 +1,6 @@
+{
+    "require": {
+        "symfony/console": "^6.0",
+        "symfony/panther": "^2.0"
+    }
+}

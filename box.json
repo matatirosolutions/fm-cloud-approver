@@ -1,0 +1,12 @@
+{
+  "main": "bin/app.php",
+  "directories": ["vendor"],
+  "finder": [
+    {
+      "name": "*.php",
+      "in": "vendor"
+    }
+  ],
+  "compression": "BZ2",
+  "output": "build/approve"
+}
