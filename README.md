@@ -4,6 +4,9 @@
 ## Installation ##
 
 ```bash
+git clone https://github.com/matatirosolutions/fm-cloud-approver.git ./fm-cloud-approver
+cd fm-cloud-approver/
+composer install
 
 ```
 ## Usage ##
