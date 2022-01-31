@@ -39,6 +39,7 @@ use Symfony\Component\Panther\Client;
             $io->info('IP address approved');
         } catch (NoSuchElementException | TimeoutException) {
             $io->error('Unable to approve address.');
+            return Command::FAILURE;
         }
 
         return Command::SUCCESS;

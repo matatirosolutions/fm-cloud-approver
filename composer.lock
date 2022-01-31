@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c35428d4c7e1d0cbd404b1c8fe9ce8fb",
+    "content-hash": "83b48f61081c53cff6f66416502d7b9a",
     "packages": [
         {
             "name": "dbrekelmans/bdi",
@@ -54,63 +54,6 @@
                 "source": "https://github.com/dbrekelmans/bdi/tree/1.0"
             },
             "time": "2021-10-16T09:40:32+00:00"
-        },
-        {
-            "name": "lbaey/chromedriver",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/lbaey/chromedriver.git",
-                "reference": "eccc0d2ffa9705f6a2b2758c6a5f00fbdc80dbaa"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/lbaey/chromedriver/zipball/eccc0d2ffa9705f6a2b2758c6a5f00fbdc80dbaa",
-                "reference": "eccc0d2ffa9705f6a2b2758c6a5f00fbdc80dbaa",
-                "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "^1.0 || ^2.0",
-                "ext-zip": "*",
-                "php": ">=7.0"
-            },
-            "default-branch": true,
-            "type": "composer-plugin",
-            "extra": {
-                "class": "Lbaey\\Composer\\ChromeDriverPlugin"
-            },
-            "autoload": {
-                "psr-0": {
-                    "Lbaey": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Laurent Baey",
-                    "email": "laurent.baey@gmail.com"
-                }
-            ],
-            "description": "Utility for installing Chromedriver, whatever platform you are on, for use with Behat",
-            "homepage": "https://github.com/lbaey",
-            "keywords": [
-                "Behat",
-                "Browser Testing",
-                "Chromedriver",
-                "MAC",
-                "linux",
-                "osx",
-                "selenium",
-                "windows"
-            ],
-            "support": {
-                "issues": "https://github.com/lbaey/chromedriver/issues",
-                "source": "https://github.com/lbaey/chromedriver/tree/1.2.0"
-            },
-            "time": "2021-02-22T11:16:14+00:00"
         },
         {
             "name": "php-webdriver/webdriver",
@@ -2118,9 +2061,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "lbaey/chromedriver": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

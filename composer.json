@@ -1,13 +1,7 @@
 {
-    "require": {
-        "symfony/console": "^6.0",
-        "symfony/panther": "^2.0",
-        "dbrekelmans/bdi": "^1.0",
-        "lbaey/chromedriver": "dev-master"
-    },
-    "config": {
-        "allow-plugins": {
-            "lbaey/chromedriver": true
-        }
-    }
+  "require": {
+    "symfony/console": "^6.0",
+    "symfony/panther": "^2.0",
+    "dbrekelmans/bdi": "^1.0"
+  }
 }
