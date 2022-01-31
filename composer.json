@@ -1,6 +1,7 @@
 {
     "require": {
         "symfony/console": "^6.0",
-        "symfony/panther": "^2.0"
+        "symfony/panther": "^2.0",
+        "dbrekelmans/bdi": "^1.0"
     }
 }
