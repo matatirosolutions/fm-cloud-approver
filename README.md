@@ -10,7 +10,7 @@ To be perfectly honest, this process is still a hassle, however it does work wit
 
 ## Installation ##
 
-These instructions presume that you already have PHP 8.x installed on the server, if not then you're going to need to take care of that first.
+These instructions presume that you already have PHP 7.4.x or 8.0.x installed on the server, if not then you're going to need to take care of that first. If you're on PHP 7.4 then the instructions below are for you. If you're using PHP 8.0 then you'll need to use `composer update` in place of `composer install` below.
 
 Step one is to install the headless version of Google Chrome.
 
