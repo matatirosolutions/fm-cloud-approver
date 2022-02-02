@@ -13,8 +13,8 @@ use Symfony\Component\Console\Style\SymfonyStyle;
 use Symfony\Component\Panther\Client;
 
 (new SingleCommandApplication())
-    ->setName('Claris Cloud Approver') // Optional
-    ->setVersion('1.0.0') // Optional
+    ->setName('Claris Cloud Approver')
+    ->setVersion('1.0.1')
     ->addArgument('url', InputArgument::REQUIRED, 'The url emailed to you by Claris')
     ->setCode(function (InputInterface $input, OutputInterface $output) {
         $io = new SymfonyStyle($input, $output);
@@ -37,7 +37,7 @@ use Symfony\Component\Panther\Client;
         try {
             $client->waitForElementToContain('.header', 'Great, thanks for letting us know.', 10);
             $io->info('IP address approved');
-        } catch (NoSuchElementException | TimeoutException) {
+        } catch (NoSuchElementException | TimeoutException $except) {
             $io->error('Unable to approve address.');
             return Command::FAILURE;
         }
