@@ -1,0 +1,6 @@
+version: "3.8"
+services:
+  approve:
+    build: ./docker
+    volumes:
+      - .:/var/approve/
